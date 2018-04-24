@@ -2,6 +2,7 @@ package com.kotlinblog.gitflow
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
 
@@ -9,5 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         // Adding new feature!!!
+        Log.d("TAG1", "test")
     }
 }
